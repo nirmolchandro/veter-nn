@@ -1,0 +1,561 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header section code start */
+    .nav-bg{
+        padding: 20px;
+    }
+    .nav-bg .logo{
+        font-size: 25px;
+    }
+    .manu ul li a{
+        font-size: 20px;
+    }
+    .srech-s input{
+        width: 200px;
+        padding: 5px;
+    }
+    .srech-s button {
+        padding: 5px 10px;
+    }
+    /* header section code end */
+    /* banner section code start */
+    .banner{
+        padding: 30px 0 40px;
+    }
+    .banner-img{
+        text-align: center;
+    }
+    .banner-title{
+        text-align: center;
+    }
+    .banner-title h2{
+        margin-top: 0px;
+        line-height: 45px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+    .banner-title p{
+        margin-bottom: 10px;
+        
+    }
+    .htn{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    /* banner section code end */
+    /* lover section code start */
+    .lover{
+        padding: 20px 0 50px;
+    }
+    .lover-tex{
+        text-align: center;
+    }
+    .lover-tex h3{
+        margin: 0px 0 10px;
+        font-size: 25px;
+    }
+    .lover-tex p{
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .l-btn{
+        margin-bottom: 18px;
+    }
+    .lover-img{
+       margin-bottom: 22px;
+    }
+    .lover-img::before{
+        top: 0px;
+        left: -0px;
+    }
+    .lover-icon i{
+        padding: 15px;
+        font-size: 25px;
+    }
+    /* lover section code end */
+    /* take care section code start */
+    .take-care{
+        padding: 40px 0 0;
+        background-color: #FFC400;
+
+    }
+    .hiding-title{
+
+    }
+    .hiding-title h1{
+        font-size: 30px;
+    }
+    .hiding-title p{
+        margin-bottom: 45px;
+        font-size: 15px;
+    }
+    .takecare-img-box{
+        padding-bottom: 20px;
+    }
+    .takecare-img-box h4{
+        margin: 15px 0 5px;
+        font-size: 22px;
+    }
+    .takecare-img-box p{
+        font-size: 15px;
+        color: #fff;
+    }
+    /* take care section code end */
+    /* love animel section code start */
+    .love-animel{
+        padding: 50px 0px 50px;
+    }
+    .animel-img{
+        position: relative;
+    }
+    .animel-img::after{
+        
+        bottom: 0px;
+        right: 0px;
+        background-color: #f3f1eb;
+        width: 0;
+        height: 0;
+
+    }
+    .love-text{
+        text-align: center;
+        color: #000;
+    }
+    .love-text h2{
+        margin: 28px 0px 10px;
+        font-size: 22px;
+    }
+    .love-text p{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    /* love animel section code end */
+    /* dogprice section code start */
+    .dogprice{
+        padding: 65px 0 0;
+        background-color: #FFC400;
+    }
+    .cat-p-img{
+        padding: 0 8px 0;
+        margin-bottom: 40px;
+    }
+    .cat-p-img p{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .cat-p-img button{
+        font-size: 16px;
+    }
+    /* dogprice section code end */
+    .our-tem{
+        padding: 50px 0px 50px;
+    }
+    .our-tem-titl{
+        color: #000;
+    }
+    .our-tem-titl h2{
+        font-size: 25px;
+    }
+    .our-tem-titl p{
+        padding-bottom: 0;
+        font-size: 16px;
+    }
+    .our-tem-img{
+        margin-top: 25px;
+    }
+    .our-tem-img h4{
+        padding: 15px 0 0;
+        font-size: 20px;
+    }
+    .our-tem-img p{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .tem-s-icon a i{
+        margin: 0 5px;
+        font-size: 25px;
+    }
+    /* our team section code end */
+    /* resent works section code start */
+    .resent-work{
+        padding: 50px 0px 50px;
+    }
+    .resent-m-box{
+        margin-top: 30px;
+    }
+    .resent-m-box h4{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    /* resent works section code end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header section code start */
+    .nav-bg{
+        padding: 20px;
+    }
+    .nav-bg .logo{
+        font-size: 25px;
+    }
+    .manu ul li a{
+        font-size: 20px;
+    }
+    .srech-s input{
+        width: 250px;
+        padding: 10px;
+    }
+    .srech-s button {
+        padding: 10px 15px;
+    }
+    /* header section code end */
+    /* banner section code start */
+
+    .banner-img{
+        text-align: center;
+    }
+    .banner-title{
+        text-align: center;
+    }
+    .banner-title h2{
+        margin-top: 0px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        font-size: 35px;
+        font-weight: 600;
+
+    }
+    .htn{
+        margin-left: 30px;
+    }
+    /* banner section code end */
+    /* lover section code start */
+    .lover{
+        padding: 64px 56px 20px;
+    }
+    .lover-tex{
+        text-align: center;
+    }
+    .lover-tex h3{
+        margin: 20px 20px 20px;
+        font-size: 30px;
+    }
+    .lover-tex p{
+        margin-bottom: 18px;
+        font-size: 18px;
+    }
+    .l-btn{
+        margin-bottom: 22px;
+    }
+    .lover-img{
+        margin-bottom: 45px;
+    }
+    .lover-img::before{
+        top: 250px;
+        left: -33px;
+    }
+   
+    /* lover section code end */
+    /* take care section code start */
+    .take-care{
+        padding: 45px 0 0;
+        background-color: #FFC400;
+
+    }
+    .hiding-title{
+
+    }
+    .hiding-title h1{
+        font-size: 35px;
+    }
+    .hiding-title p{
+        margin-bottom: 45px;
+    }
+    .takecare-img-box{
+        padding-bottom: 20px;
+    }
+    .takecare-img-box h4{
+        margin: 15px 0 10px;
+        font-size: 25px;
+    }
+    .takecare-img-box p{
+        font-size: 18px;
+        color: #fff;
+    }
+    /* take care section code end */
+    /* love animel section code start */
+    .love-animel{
+        padding: 64px 56px 20px;
+    }
+    .animel-img{
+        position: relative;
+    }
+    .animel-img::after{
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        right: -38px;
+        background-color: #FFC400;
+        width: 200px;
+        height: 200px;
+        z-index: -1;
+    }
+    .love-text{
+        text-align: center;
+        color: #000;
+    }
+    .love-text h2{
+        margin: 56px 20px 10px;
+        font-size: 30px;
+    }
+    .love-text p{
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    /* love animel section code end */
+    /* dogprice section code start */
+    .dogprice{
+        padding: 65px 0 0;
+        background-color: #FFC400;
+    }
+    .cat-p-img{
+        padding: 0 27px 0;
+        margin-bottom: 40px;
+    }
+    .cat-p-img p{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .cat-p-img button{
+        font-size: 16px;
+    }
+    /* dogprice section code end */
+    /* our team section code start */
+    .our-tem{
+        padding: 64px 56px 20px;
+    }
+    .our-tem-titl{
+        color: #000;
+    }
+    .our-tem-titl h2{
+        font-size: 35px;
+    }
+    .our-tem-titl p{
+        padding-bottom: 0;
+        font-size: 16px;
+    }
+    .our-tem-img{
+        margin-top: 25px;
+    }
+    .our-tem-img h4{
+        padding: 15px 0 0;
+        font-size: 20px;
+    }
+    .our-tem-img p{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .tem-s-icon a i{
+        margin: 0 5px;
+        font-size: 25px;
+    }
+    /* our team section code end */
+    /* resent works section code start */
+    .resent-work{
+        padding: 64px 56px 20px;
+    }
+    .resent-m-box{
+        margin-top: 30px;
+    }
+    .resent-m-box h4{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    /* resent works section code end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* banner section code start */
+    .banner-img{
+        text-align: center;
+    }
+    .banner-title{
+        text-align: center;
+    }
+    .banner-title h2{
+        margin-top: 0px;
+        line-height: 70px;
+        margin-bottom: 0px;
+        font-size: 40px;
+        font-weight: 600;
+
+    }
+    .htn{
+        margin-left: 40px;
+    }
+    /* banner section code end */
+    /* lover section code start */
+    .lover{
+        padding: 70px 0 66px;
+    }
+    .lover-tex{
+        text-align: center;
+    }
+    .lover-tex h3{
+        margin: 40px 0 20px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .lover-tex p{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .l-btn{
+        margin-bottom: 22px;
+    }
+    .lover-img{
+       margin-bottom: 22px;
+    }
+    .lover-img::before{
+        width: 165px;
+        height: 165px;
+        top: 174px;
+        left: -22px;
+
+    }
+    .lover-icon i{
+        padding: 16px;
+        font-size: 30px;
+        
+        
+    }
+   
+    /* lover section code end */
+    /* take care section code start */
+    .take-care{
+        padding: 70px 0 25px;
+        background-color: #FFC400;
+
+    }
+    .hiding-title{
+
+    }
+    .hiding-title h1{
+        font-size: 50px;
+    }
+    .hiding-title p{
+        margin-bottom: 50px;
+    }
+    .takecare-img-box{
+        padding-bottom: 30px;
+    }
+    .takecare-img-box h4{
+        margin: 20px 0 15px;
+        font-size: 28px;
+    }
+    .takecare-img-box p{
+        font-size: 18px;
+        color: #fff;
+    }
+    /* take care section code end */
+    /* love animel section code start */
+    .love-animel{
+        padding: 70px 0 66px;
+    }
+    .animel-img{
+        position: relative;
+    }
+    .animel-img::after{
+        bottom: -20px;
+        right: -30px;
+        width: 180px;
+        height: 180px;
+    }
+    .love-text{
+        text-align: center;
+        color: #000;
+    }
+    .love-text h2{
+        margin: 40px 0 15px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .love-text p{
+        padding: 0px 10px 0;
+        font-size: 16px;
+    }
+    /* love animel section code end */
+    /* dogprice section code start */
+    .dogprice{
+        padding: 65px 0 0;
+        background-color: #FFC400;
+    }
+    .cat-p-img{
+        margin-bottom: 40px;
+    }
+    .cat-p-img p{
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .cat-p-img button{
+        font-size: 16px;
+    }
+    /* dogprice section code end */
+    /* our team section code start */
+    .our-tem{
+        padding: 70px 0 25px;
+    }
+    .our-tem-titl{
+        color: #000;
+    }
+    .our-tem-titl h2{
+        font-size: 40px;
+    }
+    .our-tem-titl p{
+        padding-bottom: 0;
+        font-size: 20px;
+    }
+    .our-tem-img{
+        margin-top: 25px;
+    }
+    .our-tem-img h4{
+        padding: 15px 0 0;
+        font-size: 20px;
+    }
+    .our-tem-img p{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .tem-s-icon a i{
+        margin: 0 5px;
+        font-size: 25px;
+    }
+    /* our team section code end */
+    /* resent works section code start */
+    .resent-work{
+        padding: 70px 0 25px;
+    }
+    .resent-m-box{
+        margin-top: 30px;
+    }
+    /* resent works section code end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1299px) and (max-width: 1399.98px) { 
+
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

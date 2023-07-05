@@ -1,0 +1,475 @@
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #313243;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bg{
+    background-color: #313131;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+}
+.nav-bg .logo{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+.manu ul li a{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+.manu ul li a:hover{
+    color: #FFC400;
+}
+.srech-s{
+    display: flex;
+}
+.srech-s input{
+    width: 200px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+}
+.srech-s input:focus{
+    outline: none;
+}
+.srech-s button {
+    padding: 10px 15px;
+    background-color: #FFC400;
+    border: none;
+}
+.srech-s button i{
+    color: #fff;
+}
+
+/* banner section code start */
+.banner{
+    padding: 60px 0 50px;
+    background-color: #FFC400;
+}
+.banner-title{
+    
+}
+.banner-title h2{
+    margin-top: 155px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    font-size: 64px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+.banner-title p{
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+
+.banner-btn{
+    padding: 10px 20px;
+    background-color: #313243;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 1px solid #313243;
+}
+.banner-btn:focus{
+    outline: none;
+}
+.htb:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.htn{
+    margin-left: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+.htn:hover{
+    background-color: #313243;
+    border: 1px solid #313243;
+}
+/* banner section code end */
+
+
+
+/* lover section code start */
+.lover{
+    padding: 120px 0 130px;
+}
+.lover-tex{
+
+}
+.lover-tex h3{
+    margin: 70px 0 45px;
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+.lover-tex p{
+    margin-bottom: 42px;
+    font-size: 27px;
+}
+.l-btn{
+    background-color: #313243;
+}
+.lover-img{
+    position: relative;
+    z-index: -1;
+}
+
+.lover-img::before{
+    content: "";
+    position: absolute;
+    background-color: #EAAE00;
+    width: 200px;
+    height: 200px;
+    top: 348px;
+    left: -32px;
+    z-index: -1;
+
+}
+.lover-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #dfad168e;
+    cursor: pointer;
+    z-index: 1;
+}
+.lover-icon i{
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 50%;
+    color: #FFC400;
+    background-color: #fff;
+    
+}
+/* lover section code end */
+/* take care section code start */
+.take-care{
+    padding: 80px 0 90px;
+    background-color: #FFC400;
+
+}
+.hiding-title{
+
+}
+.hiding-title h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+}
+.hiding-title p{
+    margin-bottom: 70px;
+    font-size: 18px;
+    color: #fff;
+}
+.takecare-img-box{
+    
+}
+.takecare-img-box h4{
+    margin: 40px 0 20px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+.takecare-img-box p{
+    font-size: 18px;
+    color: #fff;
+}
+/* take care section code end */
+/* love animel section code start */
+.love-animel{
+    padding: 80px 0 90px;
+}
+.animel-img{
+    position: relative;
+    z-index: -1;
+
+}
+.animel-img::after{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -38px;
+    background-color: #FFC400;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+.love-text{
+    text-align: right;
+    color: #313243;
+}
+.love-text h2{
+    margin: 90px 0 40px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.love-text p{
+    margin-bottom: 40px;
+    font-size: 25px;
+
+}
+/* love animel section code end */
+/* catprice section code start */
+.dogprice{
+    padding: 80px 0 90px;
+    background-color: #FFC400;
+}
+.cat-p-img{
+    
+}
+.cat-p-img p{
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+.dog-pric{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: #313243;
+    text-transform: capitalize;
+    border: none;
+    transition: all 0.33s;
+    color: #fff !important;
+    border: 1px solid #313243;
+}
+
+.dog-pric:hover{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: #00BFCB;
+    text-transform: capitalize;
+    border: none;
+    transition: all 0.33s;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #00BFCB;
+}
+/* dogprice section code end */
+/* our team section code start */
+.our-tem{
+    padding: 80px 0 90px;
+}
+.our-tem-titl{
+    color: #313243;
+}
+.our-tem-titl h2{
+    margin-bottom: 10px;
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.our-tem-titl p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.our-tem-img{
+
+}
+.our-tem-img h4{
+    padding: 20px 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.our-tem-img p{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.tem-s-icon{
+    
+}
+.tem-s-icon a i{
+    margin: 0 10px;
+    font-size: 25px;
+    color: #FFC400;
+}
+/* our team section code end */
+
+/* reating cliten section code start */
+.reating{
+    padding: 110px 0 120px;
+    background-image: url("../img/bg/rating-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+}
+.reating::before{
+    content: "";
+    position: absolute;
+    display: grid;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc40085;
+    z-index: -1;
+    
+}
+.reating-box{
+    color: #fff;
+}
+.reating-box i{
+    padding: 20px;
+    font-size: 60px;
+    z-index: 2;
+}
+/* reating cliten section code end */
+/* resent works section code start */
+.resent-work{
+    padding: 80px 0 80px;
+}
+.our-tem-titl{
+
+}
+.our-tem-titl h2{
+    
+}
+.our-tem-titl p{
+
+}
+
+.resent-m-box{
+    transition: all 0.5s;
+}
+.resent-m-box:hover{
+    box-shadow: -1px 0px 13px 0px rgba(0,0,0,0.75);
+}
+.resent-tex{
+    padding: 20px 25px;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d6;
+    border-bottom: 1px solid #d7d7d7;
+}
+.resent-m-box h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #313243;
+}
+.resent-date{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFC400;
+}
+.reset-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #313243;
+}
+.resent-r{
+    color: #FFC400;
+}
+
+/* resent works section code end */
+/* footer section code start */
+footer{
+    padding: 80px 0 80px;
+    background-color: #313131;
+}
+.footer-hiding{
+    color: #fff;
+}
+.footer-hiding h4{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.footer-hiding ul li{
+    list-style: none;
+}
+.footer-hiding ul li a{
+    
+}
+.footer-h-l{
+    text-align: right;
+    color: #fff;
+}
+.inp-sa{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.inp-sa input{
+    display: block;
+    width: 350px;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+}
+.inp-sa input:focus{
+    outline: none;
+}
+.inp-sa button{
+    background-color: #00BFCB;
+    border: none;
+}
+.inp-sa button i{
+    padding: 10px 25px;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+.foter-icon{
+    margin-top: 10px;
+}
+.foter-icon ul{
+    list-style: none;
+    display: block;
+}
+.foter-icon ul li{
+    display: inline-block;
+}
+.foter-icon ul li a i{
+    font-size: 25px;
+    margin-right: 15px;
+
+}
+.foter-icon ul li a:last-child{
+    margin-right: 0px;
+
+}
+
+/* footer section code end */
+
+
